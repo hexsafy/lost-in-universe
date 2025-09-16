@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Lost In Universe</title>
+    <link href="https://in.universe/feed.xml" rel="self" />
+    <link href="https://in.universe" />
+    <updated>2025-09-16T17:14:06+03:00</updated>
+    <author>
+        <name>Carlo Hexsafi</name>
+    </author>
+    <id>https://in.universe</id>
+
+    <entry>
+        <title>test 3</title>
+        <author>
+            <name>Carlo Hexsafi</name>
+        </author>
+        <link href="https://in.universe/test-3.html"/>
+        <id>https://in.universe/test-3.html</id>
+
+        <updated>2025-09-16T17:13:59+03:00</updated>
+            <summary>
+                <![CDATA[
+                    tet 3
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>tet 3</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>test 2</title>
+        <author>
+            <name>Carlo Hexsafi</name>
+        </author>
+        <link href="https://in.universe/test-2.html"/>
+        <id>https://in.universe/test-2.html</id>
+
+        <updated>2025-09-16T16:59:34+03:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Test</title>
+        <author>
+            <name>Carlo Hexsafi</name>
+        </author>
+        <link href="https://in.universe/test.html"/>
+        <id>https://in.universe/test.html</id>
+
+        <updated>2025-09-16T16:15:39+03:00</updated>
+            <summary>
+                <![CDATA[
+                    My first blog in 2025. Some code below: int main() { return 0; //comment }
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    My first blog in 2025.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://in.universe/media/posts/1/ascii-art-2.png" height="1598" width="1920" alt=""  sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://in.universe/media/posts/1/responsive/ascii-art-2-xs.png 300w ,https://in.universe/media/posts/1/responsive/ascii-art-2-sm.png 480w ,https://in.universe/media/posts/1/responsive/ascii-art-2-md.png 768w ,https://in.universe/media/posts/1/responsive/ascii-art-2-lg.png 1024w">
+      
+    </figure>
+
+  <p>
+    Some code below:<br><br>
+  </p>
+<pre class="line-numbers  language-html"><code>int main()
+{
+    return 0;
+    //comment
+}</code></pre>
+            ]]>
+        </content>
+    </entry>
+</feed>

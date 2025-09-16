@@ -1,0 +1,53 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Lost In Universe",
+    "description": "",
+    "home_page_url": "https://in.universe",
+    "feed_url": "https://in.universe/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Carlo Hexsafi"
+    },
+    "items": [
+        {
+            "id": "https://in.universe/test-3.html",
+            "url": "https://in.universe/test-3.html",
+            "title": "test 3",
+            "summary": "tet 3",
+            "content_html": "<p>tet 3</p>",
+            "author": {
+                "name": "Carlo Hexsafi"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-09-16T17:13:59+03:00",
+            "date_modified": "2025-09-16T17:14:06+03:00"
+        },
+        {
+            "id": "https://in.universe/test-2.html",
+            "url": "https://in.universe/test-2.html",
+            "title": "test 2",
+            "author": {
+                "name": "Carlo Hexsafi"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-09-16T16:59:34+03:00",
+            "date_modified": "2025-09-16T16:59:34+03:00"
+        },
+        {
+            "id": "https://in.universe/test.html",
+            "url": "https://in.universe/test.html",
+            "title": "Test",
+            "summary": "My first blog in 2025. Some code below: int main() { return 0; //comment }",
+            "content_html": "\n  <p>\n    My first blog in 2025.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://in.universe/media/posts/1/ascii-art-2.png\" height=\"1598\" width=\"1920\" alt=\"\"  sizes=\"(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)\" srcset=\"https://in.universe/media/posts/1/responsive/ascii-art-2-xs.png 300w ,https://in.universe/media/posts/1/responsive/ascii-art-2-sm.png 480w ,https://in.universe/media/posts/1/responsive/ascii-art-2-md.png 768w ,https://in.universe/media/posts/1/responsive/ascii-art-2-lg.png 1024w\">\n      \n    </figure>\n\n  <p>\n    Some code below:<br><br>\n  </p>\n<pre class=\"line-numbers  language-html\"><code>int main()\n{\n    return 0;\n    //comment\n}</code></pre>",
+            "author": {
+                "name": "Carlo Hexsafi"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-09-16T16:15:39+03:00",
+            "date_modified": "2025-09-16T16:55:00+03:00"
+        }
+    ]
+}
