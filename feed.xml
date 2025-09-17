@@ -1,66 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Lost In Universe</title>
+    <title>Lost In Computers</title>
     <link href="https://hexsafy.github.io/lost-in-universe/feed.xml" rel="self" />
     <link href="https://hexsafy.github.io/lost-in-universe" />
-    <updated>2025-09-17T18:20:56+03:00</updated>
+    <updated>2025-09-16T16:55:00+03:00</updated>
     <author>
         <name>Carlo Hexsafi</name>
     </author>
     <id>https://hexsafy.github.io/lost-in-universe</id>
 
-    <entry>
-        <title>test 4</title>
-        <author>
-            <name>Carlo Hexsafi</name>
-        </author>
-        <link href="https://hexsafy.github.io/lost-in-universe/test-4.html"/>
-        <id>https://hexsafy.github.io/lost-in-universe/test-4.html</id>
-
-        <updated>2025-09-17T18:20:56+03:00</updated>
-            <summary>
-                <![CDATA[
-                    omg
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>omg</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>test 3</title>
-        <author>
-            <name>Carlo Hexsafi</name>
-        </author>
-        <link href="https://hexsafy.github.io/lost-in-universe/test-3.html"/>
-        <id>https://hexsafy.github.io/lost-in-universe/test-3.html</id>
-
-        <updated>2025-09-16T17:13:59+03:00</updated>
-            <summary>
-                <![CDATA[
-                    tet 3
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>tet 3</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>test 2</title>
-        <author>
-            <name>Carlo Hexsafi</name>
-        </author>
-        <link href="https://hexsafy.github.io/lost-in-universe/test-2.html"/>
-        <id>https://hexsafy.github.io/lost-in-universe/test-2.html</id>
-
-        <updated>2025-09-16T16:59:34+03:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
     <entry>
         <title>Test</title>
         <author>
