@@ -3,7 +3,7 @@
     <title>Lost In Universe</title>
     <link href="https://hexsafy.github.io/lost-in-universe/feed.xml" rel="self" />
     <link href="https://hexsafy.github.io/lost-in-universe" />
-    <updated>2025-10-07T20:06:26+03:00</updated>
+    <updated>2025-10-07T20:44:40+03:00</updated>
     <author>
         <name>Carlo Hexsafi</name>
     </author>
@@ -138,8 +138,13 @@ Final Quotient: 0100 (binary) = 4. Remainder = 1.</code></pre>
       &nbsp;Case study: ARM Cortex-M4
     </h3>
 
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://hexsafy.github.io/lost-in-universe/media/posts/1/imageedit_19_5728275675.png" height="617" width="750" alt=""  sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://hexsafy.github.io/lost-in-universe/media/posts/1/responsive/imageedit_19_5728275675-xs.png 300w ,https://hexsafy.github.io/lost-in-universe/media/posts/1/responsive/imageedit_19_5728275675-sm.png 480w ,https://hexsafy.github.io/lost-in-universe/media/posts/1/responsive/imageedit_19_5728275675-md.png 768w ,https://hexsafy.github.io/lost-in-universe/media/posts/1/responsive/imageedit_19_5728275675-lg.png 1024w">
+      
+    </figure>
+
   <p>
-    To see what this predictability means in practice, we can estimate the cycle counts on a common embedded processor, an ARM Cortex-M4, clocked at 100MHz (one cycle is 10 nanoseconds).
+    To see what this predictability means in practice, we can estimate the cycle counts on a common embedded processor, an <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32f401re.html" target="_blank">STM32F401RE</a> (ARM Cortex-M4 CPU), clocked at 100MHz (one cycle is 10 nanoseconds).
   </p>
 
   <p>
@@ -159,11 +164,11 @@ Final Quotient: 0100 (binary) = 4. Remainder = 1.</code></pre>
   </p>
 
   <p>
-    The final algorithm is better because its structure has the same shape as the underlying hardware: a fixed-depth series of simple operations. This principle is broadly applicable. A ring buffer is effective because its contiguous memory layout works with the CPU's prefetcher. A sorting network can be faster than quicksort for small, fixed inputs because it compiles to branchless code that keeps the CPU pipeline full.
+    The final algorithm is better because its structure has the same shape as the underlying hardware: a fixed-depth series of simple operations. This principle is broadly applicable. A ring buffer is effective because its contiguous memory layout works with the CPU's prefetcher. A <a href="https://www.geeksforgeeks.org/dsa/bitonic-sorting-network-using-parallel-computing/" target="_blank">sorting network</a> can be faster than quicksort for small, fixed inputs because it compiles to branchless code that keeps the CPU pipeline full.
   </p>
 
   <p>
-    This process of peeling back abstractions to understand the underlying machine is a useful tool for writing reliable, high-performance code. The division problem is just a convenient gym for that mental muscle. If you want to give it a try yourself, you can find this exact problem that motivated this post on <a href="https://leetcode.com/problems/divide-two-integers/description/" target="_blank">LeetCode</a>.
+    This process of thinking by construction, bit by bit, similar to how the machine works is a useful tool for writing reliable, constant-time code. The division problem is just a convenient puzzle for putting this mindset to the test. If you want to give it a try yourself, I'd highly recommend trying out the exact problem that motivated this post on <a href="https://leetcode.com/problems/divide-two-integers/description/" target="_blank">LeetCode</a>.
   </p>
             ]]>
         </content>
