@@ -29,7 +29,7 @@
   <p>
     Here is a function to divide two integers by repeated subtraction.
   </p>
-<pre class="line-numbers  language-c"><code>long long divide_by_subtraction(long long dividend, long long divisor) {
+<pre class=" language-c"><code>long long divide_by_subtraction(long long dividend, long long divisor) {
     // O(N) wrt quotient's magnitude
     long long quotient = 0;
     while(dividend &gt;= divisor) {
@@ -48,7 +48,7 @@
   <p>
     An improvement is to subtract in powers of two.
   </p>
-<pre class="line-numbers  language-c"><code>long long divide_by_doubling(long long dividend, long long divisor) {
+<pre class=" language-c"><code>long long divide_by_doubling(long long dividend, long long divisor) {
     // O(log n)
     long long quotient = 0;
     while (dividend &gt;= divisor) {
@@ -91,7 +91,7 @@
   <p>
     Here is the process for dividing 13 (<code>1101</code>) by 3 (<code>11</code>):
   </p>
-<pre class="line-numbers  language-markdown"><code>Dividend: 1101 (13), Divisor: 11 (3), Quotient: 0000
+<pre class=" language-markdown"><code>Dividend: 1101 (13), Divisor: 11 (3), Quotient: 0000
 
 Step 1 (i=3): Does (11 &lt;&lt; 3) fit in 1101? (24 &gt; 13) -&gt; No.
          Quotient is still 0000
@@ -111,7 +111,7 @@ Final Quotient: 0100 (binary) = 4. Remainder = 1.</code></pre>
   <p>
     This sequence translates directly into code:
   </p>
-<pre class="line-numbers  language-c"><code>long long divide_by_construction(long long dividend, long long divisor) {
+<pre class=" language-c"><code>long long divide_by_construction(long long dividend, long long divisor) {
     long long quotient = 0;
     for (int i = 31; i &gt;= 0; --i) {
         if ((divisor &lt;&lt; i) &lt;= dividend) {
